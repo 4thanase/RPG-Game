@@ -86,7 +86,7 @@ const locations = [
     {
         name: "kill  monster",
         "button text": ["Go to town square", "Go to town square", "Go to town square"],
-        "button functions": [goTown, goTown, goTown],
+        "button functions": [goTown, goTown, easterEgg],
         text: 'the monster screams "Arrrrgr!!" as it dies. You gain experience points and find gold.' 
     },
     {
@@ -287,7 +287,7 @@ function pickTwo(){
 };
 
 function pickEight(){
-    pick(2);
+    pick(8);
 };
 
 function pick(guess){
